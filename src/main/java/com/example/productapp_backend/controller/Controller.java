@@ -18,5 +18,9 @@ public class Controller {
         return "Add";
     }
 
+    @GetMapping("/view")
+    public String View(){
+        return "View";
+    }
 
 }
